@@ -1,9 +1,41 @@
-/*border styles for grid*/
+/* Border styles for grid */
 div[class^="col"]{
     min-height: 50px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .row{
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
+} 
+
+body {
+    background-color: #FFFAFA;
+}
+
+/* Icon sizes */
+i[class*=" fi-brands-"]:before {
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+i[class*=" fi-rs-"]:before {
+    font-size: 1rem;
+    line-height: 6;
+}
+
+* {
+    -webkit-text-fill-color: #633B48;
+}
+
+div [class^="dropdown"]{
+    background-color: #ECE6F0;
+}
+
+div [class^="btn"]{
+    background-color: #E6DBDF;
+    border-color: #633B48;
+}
+
+i[class*=" fi-brands-figma"] {
+    -webkit-text-fill-color: #B58392;
 }
