@@ -4,13 +4,18 @@ div[class^="col"]{
     /* border: 1px solid black; */
 }
 
-.row{
-    /* border: 1px dashed red; */
-} 
+/* .row{
+    border: 1px dashed red;
+}  */
 
 body {
     background-color: #FFFAFA;
+    font-family: Verdana, sans-serif;
 }
+/* 
+.price {
+    font-family: 'Papyrus', fantasy;
+} */
 
 /* Icon sizes */
 i[class*=" fi-brands-"]:before {
@@ -18,10 +23,16 @@ i[class*=" fi-brands-"]:before {
     line-height: 1.6;
 }
 
-i[class*=" fi-rs-"]:before {
-    font-size: 1rem;
-    line-height: 6;
+i[class*=" fi-rr-"]:before {
+    font-size: 1.6rem;
+    line-height: 2;
 }
+
+i[class*=" fi-ss-"]:before {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
 
 * {
     -webkit-text-fill-color: #633B48;
@@ -38,4 +49,25 @@ div [class^="btn"]{
 
 i[class*=" fi-brands-figma"] {
     -webkit-text-fill-color: #B58392;
+}
+
+div [class^="accordion-button"]{
+    background-color: #F3EBEE;
+}
+
+div [class^="accordion"]{
+    background-color: #F3EBEE;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #F3EBEE;
+    background-color: #F3EBEE;
+}
+
+div [class^="fi fi-ss-circle brown"]{
+    -webkit-text-fill-color: #4B3C36;
+}
+
+div [class^="fi fi-ss-circle black"]{
+    -webkit-text-fill-color: black;
 }
